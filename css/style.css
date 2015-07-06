@@ -1,0 +1,179 @@
+
+
+
+
+body {
+	
+	overflow: auto;
+	border: 1px white solid;
+	background-image: url("../background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Raleway"
+}
+
+body > * {
+
+	text-align: center;
+	border-radius: 5px 5px 5px;
+	background-color: white;
+	height: 50em;
+
+
+}
+
+
+/*NAV BAR*/
+.nav-bar {
+	display: inline-block;
+	background-color: #7F7F68;
+	left: 13em;
+	position: fixed;
+	height: 5em;
+	width:50em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.name {
+	position: relative;
+	top: -1em;
+	left: 4em;
+	width: 20em;
+	margin: 0 0;
+}
+ img {
+ 	 position: relative;
+ 	 top:.8em;
+ 	 left: -18em;
+ }
+.icon {
+	color: #7F7F7A;
+	background-color: #FFFFF5;
+	padding: 5px;
+	border-radius: 25px 25px 25px;
+}
+
+li {
+	display: inline-block;
+}
+
+.icons {
+	font-size: 15px;
+	position: relative;
+	top:-3.5em;
+	left:20em;
+}
+
+.icon:hover {
+	background-color: #CCCCC4;
+}
+
+/*content */
+
+
+
+hr {
+	 width:40em;
+	 margin: 3em auto;
+	 border-color: rgba(127,127,122,1);
+}
+
+p {
+	margin: 1em 5em;
+}
+
+h2 {
+	margin-top: 2em;
+	color: #CCCCC4;
+}
+
+p {
+	color: #FFFD9E;
+}
+
+.content {
+	background-color: rgba(127,127,104,.5);
+	margin-top: 5.2em;
+	width:70em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10em;
+	border: 1px rgba(127,127,104,.5) solid;
+}
+
+iframe {
+	width:1200px;
+	height: 1100px;
+}
+
+.project-tile {
+	height: 2em;
+	width: 25em;
+	border-color: rgba(255,253,158,1);
+	margin: 1em auto;
+	border-style: dashed;
+	
+	padding-top: 1em;
+	overflow: auto;
+	
+}
+
+.project-tile:hover {
+	border-style: solid;
+	border-color: rgba(255,253,158,1);
+}
+
+a {
+	text-decoration: none;
+	font-color: rgba(255,253,158,1);
+}
+
+
+
+
+
+/*footer*/
+
+.inspire-bar {
+	height: 10em;
+	width: 100%;
+	position: fixed;
+	top: 27.5em;
+	background-color: #FFFD9E;
+}
+
+.inspire-button {
+	position: relative;
+	left:-25em;
+	background-color: #FFFD9E;
+	border-color: #7F7F7A;
+	border-style: dashed;
+
+}
+
+.inspire-button:hover {
+	border-style: solid;
+}
+
+.inspire-text {
+	font-size: 20px;
+	color: #7F7F7A;
+	
+}
+
+.inspire-line {
+	font-size: 15px;
+	position: relative;
+	top: -2em;
+	left: -2em;
+	display: none;
+}
+
+.inspire-author {
+	font-size: 15px;
+	position: relative;
+	top: -2em;
+	left: -2em;
+	display: none;
+}
