@@ -136,10 +136,11 @@ a {
 /*footer*/
 
 .inspire-bar {
+	opacity: .7;
 	height: 10em;
 	width: 100%;
 	position: fixed;
-	top: 27.5em;
+	top: 30.5em;
 	background-color: #FFFD9E;
 }
 
