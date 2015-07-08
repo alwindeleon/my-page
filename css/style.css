@@ -25,6 +25,7 @@ body > * {
 
 /*NAV BAR*/
 .nav-bar {
+	opacity: .9;
 	display: inline-block;
 	background-color: #7F7F68;
 	position: fixed;
@@ -86,6 +87,7 @@ p {
 h2 {
 	margin-top: 2em;
 	color: white;
+	letter-spacing: 2px;
 }
 
 p {
