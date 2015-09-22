@@ -22,17 +22,46 @@ body > * {
 
 }
 
-
+@media only screen and (max-width: 700px) {
+		.nav-bar{
+			max-width: 
+		}
+    h1.name {
+       	font-size: 1.5rem;
+       	margin-left: 70px;
+    }
+    img {
+    	margin-left: 100px;
+    }
+    .inspire-text {
+    	display: none;
+    }
+    .inspire-button {
+    	display: block;
+    	left: 3em !important;
+    	top:2em;
+    	
+    }
+    .inspire-line {
+			top: 0 !important;
+    }
+    .inspire-author {
+			top: 0 !important;
+    }
+}
 /*NAV BAR*/
 .nav-bar {
+	opacity: .9;
 	display: inline-block;
 	background-color: #7F7F68;
-	left: 13em;
 	position: fixed;
 	height: 5em;
 	width:50em;
-	margin-left: auto;
-	margin-right: auto;
+	left: 50%;
+	-webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+	
 }
 
 .name {
@@ -85,7 +114,8 @@ p {
 
 h2 {
 	margin-top: 2em;
-	color: #CCCCC4;
+	color: white;
+	letter-spacing: 2px;
 }
 
 p {
@@ -95,7 +125,7 @@ p {
 .content {
 	background-color: rgba(127,127,104,.5);
 	margin-top: 5.2em;
-	width:70em;
+	max-width:70rem;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10em;
@@ -136,10 +166,11 @@ a {
 /*footer*/
 
 .inspire-bar {
-	height: 10em;
+	opacity: .7;
+	min-height: 20em;
 	width: 100%;
 	position: fixed;
-	top: 27.5em;
+	top: 30em;
 	background-color: #FFFD9E;
 }
 
