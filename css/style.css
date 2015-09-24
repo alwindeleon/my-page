@@ -22,6 +22,8 @@ body > * {
 
 }
 
+
+
 @media only screen and (max-width: 700px) {
 		.nav-bar{
 			max-width: 
@@ -29,6 +31,7 @@ body > * {
     h1.name {
        	font-size: 1.5rem;
        	margin-left: 70px;
+       	padding-bottom: .5em;
     }
     img {
     	margin-left: 100px;
@@ -56,7 +59,7 @@ body > * {
 	background-color: #7F7F68;
 	position: fixed;
 	height: 5em;
-	width:50em;
+	max-width:50em;
 	left: 50%;
 	-webkit-transform: translate(-50%,0);
   -ms-transform: translate(-50%,0);
@@ -67,7 +70,6 @@ body > * {
 .name {
 	position: relative;
 	top: -1em;
-	left: 4em;
 	width: 20em;
 	margin: 0 0;
 }
@@ -91,7 +93,7 @@ li {
 	font-size: 15px;
 	position: relative;
 	top:-3.5em;
-	left:20em;
+
 }
 
 .icon:hover {
@@ -126,6 +128,7 @@ p {
 	background-color: rgba(127,127,104,.5);
 	margin-top: 5.2em;
 	max-width:70rem;
+	min-height: 60em;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10em;
