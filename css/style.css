@@ -42,11 +42,14 @@ body > * {
     .inspire-button {
     	display: block;
     	left: 3em !important;
-    	top:2em;
+    	top:3.5em;
     	
     }
     .inspire-line {
 			top: 0 !important;
+			margin-top: -1em !important;
+			margin-right: auto !important;
+			margin-left: auto !important;
     }
     .inspire-author {
 			top: 0 !important;
@@ -199,6 +202,8 @@ a {
 }
 
 .inspire-line {
+	max-width: 80%;
+	margin: 2em auto;
 	font-size: 15px;
 	position: relative;
 	top: -2em;
@@ -207,6 +212,8 @@ a {
 }
 
 .inspire-author {
+	max-width: 80%;
+	margin: 0 auto;
 	font-size: 15px;
 	position: relative;
 	top: -2em;
